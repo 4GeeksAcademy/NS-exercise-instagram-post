@@ -1,0 +1,54 @@
+body {
+	background: black;
+	margin: 0;
+	position: relative;
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+	height: 100vh;
+}
+main {
+	background: white;
+	color: black;
+	font-size: 18px;
+	width: 540px;
+}
+header {
+	padding: 20px 0;
+	font-size: 15px;
+}
+.photo {
+	width: 100%;
+	margin: 0;
+}
+.logo {
+	width: 25px;
+	margin: 0 4px 0 18px;
+}
+.fr {
+	float: right;
+}
+.more {
+	vertical-align: top;
+	margin: 4px 15px 0 0;
+}
+nav {
+	padding: 20px 15px 10px 15px;
+}
+nav li, header li {
+	display: inline-block;
+}
+i {
+	font-size: 28px;
+	margin-right: 10px;
+}
+article {
+	padding: 15px 15px 0;
+}
+p {
+	margin: 0 0 15px;
+}
+b {
+	font-weight: 700;
+}
